@@ -400,14 +400,13 @@ footer span{
     }
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 370px){
     header{
-        padding: 0 8px 0 0;
+        padding: 0 8px 0 8px;
     }
 
     header .logo img{
         width: 130px;
-        
     }
 
     header .signin{
@@ -420,21 +419,17 @@ footer span{
         padding: 3px 12px;
     }
 
+    .landing-page{
+        height: 120vh;
+    }
+
     .landing-page .overlay{ 
         background: linear-gradient(to bottom, rgba(1, 1, 22, 0.801) 30%, rgb(1, 1, 22));
         background-position: top;
         background-size: cover;
-        height: 150vh;
+        height: 120vh;
         position: absolute;
-    }
-
-    .landing-page .overlay{
         padding: 0 15px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1;
     }
 
     .landing-content{
@@ -449,7 +444,7 @@ footer span{
     .landing-content h1{
         font-size: 1.8em;
         font-weight: 900;
-        width: 280px;
+        width: 300px;
         margin-bottom: 10px;
     }
 
@@ -491,8 +486,8 @@ footer span{
     
 
     .section2{
-        top: 36em;
-        padding: 4em 0 2em 10px;
+        top: 32em;
+        padding: 5em 0 2em 15px;
     }
 
     .section2 h1{
@@ -501,7 +496,7 @@ footer span{
     }
 
     .section2 a button{
-        width: 280px;
+        width: 330px;
         letter-spacing: 0;
         padding: 15px 8px;
         font-size: 12px;
