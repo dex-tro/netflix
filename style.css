@@ -557,3 +557,160 @@ footer span{
         margin: 3em 0 0 0;
     }
 }
+
+@media only screen and (max-width: 500px){
+    header{
+        padding: 0 8px 0 8px;
+    }
+
+    header .logo img{
+        width: 160px;
+    }
+
+    header .signin{
+        padding-bottom: 17px;
+    }
+
+    header .signin a button{
+        font-weight: 400;
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+
+    .landing-page{
+        height: 115vh;
+    }
+
+    .landing-page .overlay{ 
+        background: linear-gradient(to bottom, rgba(1, 1, 22, 0.801) 30%, rgb(1, 1, 22));
+        background-position: top;
+        background-size: cover;
+        height: 115vh;
+        position: absolute;
+        padding: 0 15px;
+    }
+
+    .landing-content{
+        top: 8em;
+        padding: 0 0;
+    }
+
+    .landing-content h1{
+        font-size: 2em;
+        width: 450px;
+    }
+
+    .landing-content h4{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .landing-content p{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .landing-content form{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    form input:nth-child(1){
+        display: flex;
+        width: 380px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    
+    form input:nth-child(2){
+        width: 110px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .landing-content2{
+        display: none;
+    }
+    
+
+    .section2{
+        top: 32em;
+        padding: 6em 0 2em 15px;
+    }
+
+    .section2 h1{
+        font-size: 2em;
+        width: 470px;
+    }
+
+    .section2 a button{
+        width: 450px;
+        letter-spacing: 0;
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .section2 a button i{
+        font-size: 17px;
+    }
+
+    .section2 p{
+        font-size: 16px;
+        width: 430px;
+        margin: 25px 0 8px 0;
+    }
+
+    .section2 form{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .section2 footer p a{
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    .section2 footer{
+        padding-top: 6em;
+    }
+
+    footer .list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4em;
+    }
+
+    footer .list ul{
+        gap: 12px;
+    }
+
+    footer .list ul li{
+        font-size: 14px;
+    }
+
+    footer .dropbtn{
+        margin-top: 4em;
+        width: 120px;
+    }
+    
+    footer .dropbtn #dropbtn{
+        background: none;
+        color: #fff;
+        border: none;
+        width: 90%;
+        padding: 10px;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    footer span{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: .7px;
+        margin: 3em 0 0 0;
+    }
+}
